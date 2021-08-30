@@ -1,0 +1,159 @@
+body{
+  background-color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.co{
+  color: crimson;
+  font-size: 25px;
+}
+img{
+  max-width: 100%;
+}
+.title{
+  text-align: center;
+  color: crimson;
+  font-weight: bold;
+  font-size: 8vw;
+  text-shadow: 2px 2px  wheat;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+span{
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 25px;
+}
+.card{
+margin-top: 50px;
+background-color: wheat;
+border-radius: 10px;
+width: 100%;
+}
+
+.btn{
+  position: relative;
+  margin-top: 20px;
+  background-color: crimson;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  margin: 10px;
+  width: 20%;
+  text-align: center;
+}
+h4{
+  color: white;
+  font-weight: bold;
+}
+.subTitle{
+  margin-top: 50px;
+  text-shadow: 1.5px 1.5px crimson;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+p{
+  color: white;
+  font-size: bold;
+}
+.quote{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+.footer{
+  padding: 10px;
+}
+.footer p{
+  color: crimson;
+}
+.footer a{
+  color: white;
+  text-decoration: none;
+}
+/* ----------- android/mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 232px) 
+  and (max-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.btn{
+  display: block;
+  width: 80%;
+}
+}
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.btn{
+  display: block;
+  width: 50%;
+}
+}
+/* ----------- android ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 576px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.btn{
+  display: block;
+  width: 50%;
+}
+}
+/* ----------- galaxy s5 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.btn{
+  display: block;
+  width: 50%;
+}
+}
+/* ----------- pixel 2 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 411px) 
+  and (max-device-width: 731px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.btn{
+  display: block;
+  width: 80%;
+}
+}
+/* ----------- pixel 2 xl ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 411px) 
+  and (max-device-width: 823px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.btn{
+  display: inline-block;
+  width: 40%;
+}
+}
+/* ----------- iPad ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.btn{
+  display: inline-block;
+  width: 20%;
+}
+}
